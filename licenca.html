@@ -13,8 +13,8 @@
 
 <title>Licença</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -235,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -279,8 +283,13 @@ $(document).ready(function () {
 
 
 <p><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png" style="display: block; margin: auto;" /></p>
-<p>Este material é disponibilizado com a licença Creative Commons Atribuição-CompartilhaIgual (CC BY-SA), ou seja, você pode compartilhar e adaptar este material, porém deve atribuir os créditos para as autoras, e o seu material também deve ter este mesmo tipo de licença.</p>
-<p>Saiba mais em: <a href="https://br.creativecommons.net/licencas/">Creative Commons</a></p>
+<p>Este material é disponibilizado com a licença Creative Commons
+Atribuição-CompartilhaIgual (CC BY-SA), ou seja, você pode compartilhar
+e adaptar este material, porém deve atribuir os créditos para as
+autoras, e o seu material também deve ter este mesmo tipo de
+licença.</p>
+<p>Saiba mais em: <a
+href="https://br.creativecommons.net/licencas/">Creative Commons</a></p>
 
 <br> <br><div class="footer navbar-fixed-bottom">
   <p><center>2021. Cecília do Lago, Gabriela Caesar e Beatriz Milz.</center>
